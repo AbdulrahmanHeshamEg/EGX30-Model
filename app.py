@@ -168,7 +168,7 @@ EXPECTED_FEATURES = [
 
 @st.cache_resource
 def load_model():
-    return joblib.load('xgb_model_pipeline.pkl')
+    return joblib.load('model_pipeline.pkl')
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def fetch_market_data(target_date):
