@@ -252,7 +252,7 @@ def process_data(df_final):
 # --- UI LAYOUT ---
 st.markdown("""
     <div class="hero-wrap">
-        <div class="hero-badge">🧭 XGBoost</div>
+        <div class="hero-badge">🧭 Market Intelligence</div>
         <div class="hero-title">Smart EGX Guide</div>
         <div class="hero-subtitle">
             A one-click market scan across the Egyptian Exchange, ranking covered
